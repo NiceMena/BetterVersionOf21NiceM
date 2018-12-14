@@ -37,6 +37,7 @@
             this.btnStay = new System.Windows.Forms.Button();
             this.txtBet = new System.Windows.Forms.TextBox();
             this.lblBet = new System.Windows.Forms.Label();
+            this.btnPlay = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picCard2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCard1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCompCard1)).BeginInit();
@@ -123,11 +124,22 @@
             this.lblBet.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblBet.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBet.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblBet.Location = new System.Drawing.Point(29, 380);
+            this.lblBet.Location = new System.Drawing.Point(32, 380);
             this.lblBet.Name = "lblBet";
             this.lblBet.Size = new System.Drawing.Size(126, 24);
             this.lblBet.TabIndex = 8;
             this.lblBet.Text = "ENTER BET";
+            // 
+            // btnPlay
+            // 
+            this.btnPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlay.Location = new System.Drawing.Point(676, 261);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(75, 23);
+            this.btnPlay.TabIndex = 9;
+            this.btnPlay.Text = "Play";
+            this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // Form1
             // 
@@ -135,6 +147,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BetterVersionOf21NiceM.Properties.Resources.single_deck_blackjack_netent_free2;
             this.ClientSize = new System.Drawing.Size(882, 650);
+            this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.lblBet);
             this.Controls.Add(this.txtBet);
             this.Controls.Add(this.btnStay);
@@ -167,6 +180,7 @@
         private System.Windows.Forms.Button btnStay;
         private System.Windows.Forms.TextBox txtBet;
         private System.Windows.Forms.Label lblBet;
+        private System.Windows.Forms.Button btnPlay;
     }
 }
 

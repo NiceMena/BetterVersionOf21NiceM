@@ -15,14 +15,19 @@ namespace BetterVersionOf21NiceM
         public Form1()
         {
             InitializeComponent();
+
         }
+
+            DealCard(ref picBox)
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        
+        private void btnPlay_Click(object sender, EventArgs e)
         {
 
         }
